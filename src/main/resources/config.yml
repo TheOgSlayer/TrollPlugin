@@ -1,0 +1,16 @@
+# Resource pack (needed for the custom jumpscare images + red Mojang loading screen).
+# Without it: jumpscare = vanilla Elder Guardian scare + darkness + screams,
+#             loadingscreen = black screen with white "MOJANG STUDIOS" title and progress bar.
+# With it (and the player accepts it): your 3 custom images / red Mojang-style screen.
+resource-pack:
+  url: "https://raw.githubusercontent.com/YOUR_GITHUB_NAME/troll-plugin/main/TrollPack.zip"
+  sha1: "4dae57cd159d71aec5123e0192dd5d86df985563"
+  force: true
+
+jumpscare-seconds: 4
+keyboard-seconds: 60
+nonstopjump-seconds: 60
+loadingscreen-seconds: 8
+
+# Plays troll:scream (sounds/scream.ogg in the pack) for players who have the pack
+use-custom-sound: true
